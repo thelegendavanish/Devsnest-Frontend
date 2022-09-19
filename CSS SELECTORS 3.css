@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+   <!-- Don't edit anything else -->
+   <h1>Welcome to DEVSNEST</h1>
+   <p>This is DEVSNEST</p>
+    
+    
+   
+    <div id="mocha"></div>
+   <script type="module" src="./src/setup.js"></script>
+    <script type="module" src="./src/run.js"></script>
+  </body>
+</html>
