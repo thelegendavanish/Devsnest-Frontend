@@ -1,0 +1,11 @@
+.x {
+  height: 80px;
+  width: 120px;
+  margin: 10px;
+  text-align: center;
+  display: inline;
+  background-color: Aqua;
+ /* Write your code here*/
+  display: block;
+  
+}
