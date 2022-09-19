@@ -1,0 +1,11 @@
+#outer {
+    background-color: palevioletred;
+}
+
+#inner {
+    background-color: lightsteelblue;
+    padding : 10px;
+    margin : 10px;
+    border: 10px solid ;
+    /* Code here */
+}
