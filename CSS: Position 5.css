@@ -1,0 +1,13 @@
+body{
+  background-color: black;
+}
+
+/* Write code here */
+div.navbar{
+  position: sticky;
+  top:0;
+  padding: 10px;
+  border: 2px solid #B3B3B3;
+  color: #C4E4FC 
+
+}
