@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Mocha Tests</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+
+        <div class="container">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, tempora consectetur placeat cupiditate repudiandae blanditiis odit sit architecto eos repellat, est ea beatae quis aliquid, earum itaque consequuntur iusto totam ad! Veniam facilis voluptates aut, reiciendis illo reprehenderit distinctio ex in aspernatur quam porro quisquam natus optio, eius ipsa nemo.
+        </div>
+    
+    
+    <!-- Don't remove this mocha file -->
+    <div id="mocha"></div>
+   <script type="module" src="./src/setup.js"></script>
+    <script type="module" src="./src/run.js"></script>
+  </body>
+</html>
