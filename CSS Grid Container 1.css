@@ -1,0 +1,24 @@
+#container {
+    position: fixed;
+    z-index: 6;
+    height: max-content;
+    width: max-content;
+    border: 2px solid palevioletred;
+
+    /* use display grid, grid-template-columns and gap property in such a way 
+    That the container along with boxes inside it superimposes the skeleton perfectly */
+    /* code from here */
+display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:10px;
+
+    /* to here */
+}
+
+
+.boxes {
+    background-color: palevioletred;
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+}
