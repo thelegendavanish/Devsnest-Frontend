@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    border: 2px solid black;
+
+    /* Add color using background-color property */
+  background-color:red;
+}
+
+#title {
+    /* Add color to text using color property */
+  color:white;
+}
