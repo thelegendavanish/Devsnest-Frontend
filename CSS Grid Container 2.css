@@ -1,0 +1,18 @@
+#container {
+    position: fixed;
+    z-index: 6;
+    border: 2px solid darkslateblue;
+    display: grid;
+
+    /* Use grid-template-columns to make it a 2x3 grid */
+    /* code from here */
+  grid-template-columns:repeat(3,1fr);
+    /* to here */
+}
+
+.boxes {
+    background-color: darkslateblue;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
