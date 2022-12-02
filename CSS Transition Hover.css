@@ -1,0 +1,32 @@
+#box {
+    position: absolute;
+    left: 25px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 75px;
+    width: 75px;
+    background-color: palevioletred;
+    cursor: pointer;
+  transition: rotate .5s ease-in-out .5s, height ease-in-out 0.5s, width ease-in-out 0.5s
+
+    /* 
+    Add transition of such that 
+    It applies to properties on hover and is exactly 
+    like the transition on skeleton (gray box) on right.
+
+    Note:
+    1. All transitions and delays (if applies) should be of 0.5s
+    2. Apply ease-in-out to all transitions
+    3. Styles on hover are already provided
+    /
+
+
+    / to here */
+}
+
+#box:hover {
+    height: 100px;
+    width: 100px;
+    rotate: 45deg;
+}
