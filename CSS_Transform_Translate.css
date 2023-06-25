@@ -1,0 +1,11 @@
+#box {
+    /* Use Transform Translate in here to move box and hide skeleton */
+    transform: translate(200px,200px);
+    /* --- */
+
+    position: absolute;
+    z-index: 2;
+    height: 100px;
+    width: 100px;
+    background-color: palevioletred;
+}

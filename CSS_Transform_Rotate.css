@@ -1,0 +1,16 @@
+#box {
+    /* Use Transform Rotate in here to match box exact to the skeleton */
+    transform: rotate(45deg);
+    /* --- */
+
+    position: absolute;
+    z-index: 2;
+    height: 100px;
+    width: 100px;
+    background-color: palevioletred;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
